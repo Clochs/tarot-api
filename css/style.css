@@ -4,20 +4,36 @@
 
 /* Box Model Hack */
 *{
-    box-sizing: border-box;
-  }
-  
-  /******************************************
-  /* LAYOUT
-  /*******************************************/
-  img{
-    display: block;
-    margin: 0 auto;
-    height: 200px;
-  }
-  
-  
-  /******************************************
-  /* ADDITIONAL STYLES
-  /*******************************************/
-  
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background: purple;
+}
+
+
+.header, .input {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  border: 2px solid yellow;
+  padding: 6px 16px;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
